@@ -123,6 +123,7 @@
 			<optional>true</optional>
 		</dependency>
 
+
 		<!-- metrics -->
 		<dependency>
 			<groupId>io.dropwizard.metrics</groupId>
@@ -421,9 +422,9 @@
 			</plugin>
 
 			<plugin>
-				<groupId>com.google.protobuf.tools</groupId>
+				<groupId>net.dongliu</groupId>
 				<artifactId>maven-protoc-plugin</artifactId>
-				<version>0.3.2</version>
+				<version>0.3.5</version>
 				<executions>
 					<execution>
 						<id>generate-sources</id>
